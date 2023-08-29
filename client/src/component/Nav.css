@@ -1,0 +1,27 @@
+body {
+  margin: 0px, 0px;
+  padding: 0px, 0px;
+}
+.link{
+    text-decoration: none   ;
+}
+.header{
+  margin-top: 0px;
+}
+li {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  height: 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

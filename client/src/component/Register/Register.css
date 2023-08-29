@@ -1,0 +1,93 @@
+body {
+  margin: 0px, 0px;
+  padding: 0px;
+}
+.rMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 60vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.rleft {
+  width: 20vw;
+  height: 60vh;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.rright {
+  width: 40vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 5px;
+  border-radius: 10%;
+}
+.input {
+  height: 7vh;
+  width: 20vw;
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 2px;
+}
+.input:hover {
+  background-color: black;
+  color: white;
+}
+.Button {
+  background-color: black;
+  color: white;
+  height: 7vh;
+  width: 20vw;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.Button:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 1200px) {
+  .rMain {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  .rleft {
+    width: 60vw;
+  }
+  .rright {
+    width: 60vw;
+  }
+  .input,
+  .card {
+    width: 60vw;
+  }
+  .Button,
+  .card {
+    width: 60vw;
+  }
+}
