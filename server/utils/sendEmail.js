@@ -6,13 +6,13 @@ module.exports = async (email, subject, text) => {
 			service: 'gmail',
 			secure:true,
 			auth: {
-			  user: 'saurabh.pandey@iiitg.ac.in', // Change this to your email address
-			  pass: 'ukksovitrlzfsqwj', // Change this to your email password or use environment variable
+			  user: '', // Change this to your email address that account done with 2 step authentication
+			  pass: '', // Change this to your  apppassword that generate in security section in google account.
 			},
 		});
 
 		await transporter.sendMail({
-			from: 'saurabh.pandey@iiitg.ac.in', // Change this to your email address
+			from: '', // Change this to your email address
 			to: email,
 			subject: 'Email Verification',
 			text: text,
